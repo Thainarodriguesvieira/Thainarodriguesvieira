@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+
+}
+
+.imagem-card{
+    width: 100%;
+   
+       
+}
+
+.card-video{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 8px;
+    column-gap: 10px;
+    margin: 10px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+   
+
+   
+  
+}
