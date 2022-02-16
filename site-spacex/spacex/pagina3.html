@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrate-nos</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="pagina1.html">
+                <img src="logo.png" alt="logo">
+            </a>
+            <a href="pagina2.html">Naves espaciais</a>
+            <a href="pagina3.html">Contrate-nos</a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <h1>Contrate-nos agora</h1>
+        <p>Deixe uma mensagem para solicitar um de nossos serviços e retornaremos o mais breve possível</p>
+    </section>
+    <section>
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <br>
+            <div>
+                <label for="nave">Naves:</label>
+                <select name="nave" id="nave">
+                    <option value="Falcon 9">Falcon 9</option>
+                    <option value="Falcon Heavy">Falcon Heavy</option>
+                </select>
+                <label for="tipo">Tipos de serviços:</label>
+                <input type="search" name="tipo" id="tipo" list="tipos">
+                <datalist id="tipos">
+                    <option value="1.Lorem ipsum dolor, sit amet consectetur"></option>
+                    <option value="2.Lorem ipsum dolor, sit amet consectetur"></option>
+                    <option value="3.Lorem ipsum dolor, sit amet consectetur"></option>
+                    <option value="4.Lorem ipsum dolor, sit amet consectetur"></option>
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar mensagem">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
